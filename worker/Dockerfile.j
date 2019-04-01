@@ -1,4 +1,5 @@
-FROM maven:3.5-jdk-8-alpine AS build
+#FROM maven:3.5-jdk-8-alpine AS build
+FROM maven:3.6-jdk-12-alpine AS build
 
 WORKDIR /code
 
