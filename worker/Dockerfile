@@ -1,4 +1,5 @@
-FROM microsoft/dotnet:2.0.0-sdk
+#FROM microsoft/dotnet:2.0.0-sdk
+FROM microsoft/dotnet:2.2-sdk
 
 WORKDIR /code
 
